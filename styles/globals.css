@@ -335,11 +335,8 @@ body {
 }
 
 .featur {
-  display: grid;
-  grid-template-columns: auto 1fr;
-  grid-column-gap: 2rem;
-  grid-row-gap: 1.5rem;
-  align-content: start;
+  display: flex;
+  flex-direction: column;
 }
 
 .featur__icon {
